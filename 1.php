@@ -6,7 +6,7 @@ $n = mysqli_num_rows($result);
 for($i = 0;$i<$n;$i++)
 {
     $row = mysqli_fetch_array($result);
-    echo "编号：".$row["studentID"]."<br/>";
+    echo "编号：".$row["studentId"]."<br/>";
     echo "名称：".$row["studentName"]."<br/>";
     echo "年龄：".$row["age"]."<br/>";
 }
